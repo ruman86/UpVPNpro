@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UpVPNPro</string>
+    <string name="slogan_name">UpVPN PRO</string>
+    <string name="logo_name">UpVPN</string>
+    <string name="connectedLoc">Connected Location</string>
+    <string name="startbtntext">Connect To Vpn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

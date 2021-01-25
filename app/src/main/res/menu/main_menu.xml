@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="home"
+            android:icon="@drawable/ic_home_black_24dp"
+            />
+        <item
+            android:id="@+id/nav_search"
+            android:title="Subscription"
+            android:icon="@drawable/ic_home_black_24dp"
+            />
+        <item
+            android:id="@+id/my_account"
+            android:title="My Account"
+            android:icon="@drawable/ic_home_black_24dp"
+            />
+        <item
+            android:id="@+id/premiumvpn"
+            android:title="Premium IP"
+            android:icon="@drawable/ic_home_black_24dp"
+            />
+    </group>
+
+    <item android:title="Select Option">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_Login"
+                    android:title="Login"
+                    android:icon="@drawable/ic_home_black_24dp"
+                    />
+                <item
+                    android:id="@+id/aboutus"
+                    android:title="About Us"
+                    android:icon="@drawable/ic_home_black_24dp"
+                    />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Share">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="Share"
+                    android:icon="@drawable/ic_home_black_24dp"
+                    />
+                <item
+                    android:id="@+id/nav_rate"
+                    android:title="Rate us"
+                    android:icon="@drawable/ic_home_black_24dp"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>
